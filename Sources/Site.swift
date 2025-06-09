@@ -4,7 +4,7 @@ import Ignite
 @main
 struct IgniteWebsite {
     static func main() async {
-        var site = ExampleSite()
+        var site = MySite()
 
         do {
             try await site.publish()
@@ -14,11 +14,12 @@ struct IgniteWebsite {
     }
 }
 
-struct ExampleSite: Site {
+struct MySite: Site {
     var name = "stocky list website"
     var titleSuffix = " – Sites for Universal Links"
-    var url = URL(static: "https://www.example.com")
+    var url = URL(static: "https://daily-goods-list-site.pages.dev")
     var builtInIconsEnabled = true
+    var language = Language.japanese
 
     var author = "sakoda hiromichi"
 
