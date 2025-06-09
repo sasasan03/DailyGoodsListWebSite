@@ -14,7 +14,7 @@ struct Home: StaticPage {
             Text("このページをSafariで開いてください")
             Text("右上の開くボタンをタップしてください")
         }
-        .listStyle(.ordered(.default))
+//        .listStyle(.ordered(.default))
         Alert {
             Text("うまく動かない場合は、このページのURLをストリスに入力してください")
         }
