@@ -3,7 +3,7 @@
         "apps": [], 
         "details": [
             {
-                "appID": ["6NMWZ48XL4.com.sako.DailyGoodsBattery"],
+                "appID": "6NMWZ48XL4.com.sako.DailyGoodsBattery",
                 "paths": [
                     "/*"
                 ]
