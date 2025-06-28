@@ -5,7 +5,7 @@
             {
                 "appID": ["6NMWZ48XL4.com.sako.DailyGoodsBattery"],
                 "paths": [
-                    "/*"
+                    "/group/*"
                 ]
             }
         ]
